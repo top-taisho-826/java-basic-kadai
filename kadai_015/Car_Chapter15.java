@@ -35,7 +35,7 @@ public class Car_Chapter15 {
  }
 
  public void run() {
-     System.out.println("ギア" + gearChange() + "から" + gearChange() + "に切り替えました");
+     System.out.println("ギア" + this.gear + "から" + this.gear + "に切り替えました");
      System.out.println("速度は時速" + this.getSpeed() + "kmです");
  }
 }
