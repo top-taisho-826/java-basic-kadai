@@ -7,7 +7,7 @@ public class Car_Chapter15 {
  private int speed = 10;    // ギアチェンジ後の速度を表す    
 
  // コンストラクタ（初期化処理）
- public Car_Chapter15(int gear, int speed) {
+ public Car_Chapter15() {
      this.gear = gear;
      this.speed = speed;
  }
