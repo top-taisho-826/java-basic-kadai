@@ -7,7 +7,7 @@ public class KatoTaro_Chapter18 extends Kato_Chapter18 {
         // 例えば: this.setGivenName("太郎");
     }
 
-    public void setGivenName(String givenName) {
+    public void setGivenName() {
         this.givenName = givenName;
     }
 

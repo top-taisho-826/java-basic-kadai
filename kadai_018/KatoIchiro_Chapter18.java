@@ -6,7 +6,7 @@ public class KatoIchiro_Chapter18 extends Kato_Chapter18 {
         // this.setGivenName("一郎"); // コンストラクタでデフォルト設定しても良い
     }
 
-    public void setGivenName(String givenName) {
+    public void setGivenName() {
         this.givenName = givenName;
     }
 

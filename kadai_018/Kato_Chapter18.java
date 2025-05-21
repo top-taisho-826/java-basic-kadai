@@ -9,7 +9,7 @@ public abstract class Kato_Chapter18 {
     public String address = "東京都中野区〇×";
 
     // setGivenNameメソッド
-    public void setGivenName(String givenName) {
+    public void setGivenName() {
         this.givenName = givenName;
     }
 
