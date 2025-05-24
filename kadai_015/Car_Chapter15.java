@@ -4,10 +4,6 @@ public class Car_Chapter15 {
 	private int gear = 1; // 1速から5速のギアを表す
 	private int speed = 10; // ギアチェンジ後の速度を表す
 
-	public Car_Chapter15(int gear, int speed) {
-		this.gear = gear;
-		this.speed = speed;
-	}
 
 	public void gearChange(int afterGear) {
 		int beforeGear = this.gear; // 修正ポイント: 変更前のギアを保存
