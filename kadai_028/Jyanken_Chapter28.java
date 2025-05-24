@@ -1,6 +1,5 @@
 package kadai_028;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Jyanken_Chapter28 {
@@ -23,7 +22,7 @@ public class Jyanken_Chapter28 {
 
     public String getRandom() {
         String[] choices = {"グー", "チョキ", "パー"};
-        int randomIndex = new Random().nextInt(choices.length);
+        int randomIndex = (int) Math.floor(Math.random() * 3);
         String randomChoice = choices[randomIndex];
         System.out.println("相手の手は: " + randomChoice);
         return randomChoice;
